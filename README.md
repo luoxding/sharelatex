@@ -2,7 +2,9 @@
 配置好docker-compose文件及路径，方便以后部署
 
 ```
-cd ~
+cd /
+mkdir data
+cd data
 git clone https://github.com/luoxding/sharelatex.git
 cd sharelatex
 docker-compose up -d
