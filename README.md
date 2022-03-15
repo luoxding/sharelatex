@@ -7,6 +7,8 @@ mkdir data
 cd data
 git clone https://github.com/luoxding/sharelatex.git
 cd sharelatex
+#新增个映射文件夹，方便传输文件
+mkdir src
 docker-compose up -d
 ```
 
